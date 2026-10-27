@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>…catch me if you can!</title>
+  <meta name="description" content="…catch me if you can! — Animated pixel-art chase scene.">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      width: 100vw;
+      height: 100vh;
+      background-color: #0d1117;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      overflow: hidden;
+    }
+
+    .scene-container {
+      width: 100%;
+      max-width: 850px;
+      padding: 16px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .scene-gif {
+      width: 100%;
+      height: auto;
+      display: block;
+      image-rendering: -moz-crisp-edges;
+      image-rendering: pixelated;
+      image-rendering: crisp-edges;
+    }
+  </style>
+</head>
+<body>
+  <div class="scene-container">
+    <img src="assets/catch-me.gif" alt="…catch me if you can!" class="scene-gif">
+  </div>
+</body>
+</html>
